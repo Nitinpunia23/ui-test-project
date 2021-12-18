@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!--BootStrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--css file-->
+    <link rel="stylesheet" href="formboot.css">
+</head>
+
+<body>
+    <main>
+        <div class=" text-center">
+            <h1 class="display-2">Module-I HTML, CSS Assingments</h1>
+        </div>
+        <section class="text-center firstSection">
+            <div>
+                <h1 class="text-center">Tell us something positive that happned today</h1>
+            </div>
+            <form action="forms.html" id="forms">
+                <div id="new">
+                    <div>
+                        <label for="firstname">FirstName</label>
+                        <input type="text" id="firstname" name="Fname" placeholder="FirstNmae"><br>
+                    </div>
+                    <div>
+                        <label for="lastname">LastName</label>
+                        <input type="text" id="lastname" name="Lname" placeholder="LastNmae">
+                    </div>
+                    <div>
+                        <label for="lastname">On a scale of 1-10, how good is your training?</label>
+                        <input type="number" id="range" name="Lname" placeholder="Enter a number between 1-10">
+                    </div>
+                    <div>
+                        <label for="cars">Where are you taking the training?</label>
+                        <select id="place" name="home">
+                            <option value="home">From Home</option>
+                            <option value="office">From Office</option>
+                            <option value="pg">Hostel</option>
+
+                        </select>
+                    </div>
+                    <div><label for="male">what time do you usually train</label>
+                        <div>
+                            <input type="radio" id="morn" name="time" value="Morning">
+                            <label for="morn">Morning</label><br>
+                        </div>
+                        <div>
+                            <input type="radio" id="noon" name="time" value="Afternoon">
+                            <label for="noonf">Afternoon</label><br>
+                        </div>
+                        <div>
+                            <input type="radio" id="evening" name="time" value="Evening">
+                            <label for="evening">Evening</label>
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mail">Enter email id:</label>
+                        <input type="email" id="mail" name="mail_id" placeholder="Email"><br>
+                        <label for="pass">Enter password:</label>
+                        <input type="password" id="pass" name="pword " placeholder="Password">
+                    </div>
+                    <div>
+                        <label for="Age">Age Group</label>
+                        <select name="age" id="Age">
+                            <option value="junior">under 18</option>
+                            <option value="young">18-35</option>
+                            <option value="middle">35-40</option>
+                            <option value="old">41+</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button>Register</button>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+    <!--java Script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
