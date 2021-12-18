@@ -1,0 +1,20 @@
+main{
+    background-color: rgba(125, 231, 250, 0.925);
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.firstSection{
+    background-color: whitesmoke;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+}
+#forms {
+    padding: 2rem;
+    font-size: 2rem;
+}
+#new div{
+    padding: 1rem;
+}
